@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+#container{
+    width: 100%;
+}
+#background{
+    text-align: center;
+}
+#background-img{
+    width: 100%;
+}
+body{
+    background-color: #737373;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.image{
+    border-radius: 350px;
+    border: 12px solid #444342;
+    width: 100%;
+    margin: auto;
+}
+.grid-container div{
+    padding: 120px;
+    text-align: center;
+}
+
+
